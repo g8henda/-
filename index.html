@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Texas Hold'em</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@700&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0f172a;
+        color: #e2e8f0;
+      }
+      .card-font {
+        font-family: 'Playfair Display', serif;
+      }
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      .felt-texture {
+        background-color: #35654d;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v5.1L6 20.48V21.5h14v2.1h-4v2h4v5h-4v2h4v2.1L6 34v1h14v2.5h2v-2.5h14V34l-14 .6v-2.1h4v-2h-4v-5h4v-2h-4v-2.1h14v-1.02L22 23.1V18h20v2h-20v.5l14-1.12V18h-4v-2h4v-5h-4v-2h4V6h-14V4.9L34 5.5V4.5h-14V2h4V0h-4v5.1L6 4.48V3.5h14V1.4h-4V0h4v5h-4v2h4v2.1L6 10v1h14v2.5h2V11H6L20 10.38V8H0V6h20v2h-20v1.12l14 1.12V8h4v2h-4v5h4v2h-4v2.1z' fill='%232a533e' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
