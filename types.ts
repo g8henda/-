@@ -37,6 +37,7 @@ export interface Player {
   totalHandBet: number; // Total bet in this hand (for pot splits logic simplified)
   hasFolded: boolean;
   isAllIn: boolean;
+  hasActed: boolean; // Track if player has acted in the current betting round
   role?: 'D' | 'SB' | 'BB' | ''; // Dealer, Small Blind, Big Blind
   lastAction?: string; // "Check", "Call 100", "Fold"
   handDescription?: string; // e.g. "Two Pair", "High Card"
